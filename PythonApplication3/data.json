@@ -1,0 +1,1 @@
+{"query": {"bool": {"must": [{"terms": {"manufacturer_name:": "Lenovo"}}, {"terms": {"attributes.1231.value_id:": ["42352"]}}]}}}
