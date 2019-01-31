@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonApplication3", "PythonApplication3\PythonApplication3.pyproj", "{7CF1FD4F-9265-4326-B016-2DB89D1492E4}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "TermCreator", "PythonApplication3\TermCreator.pyproj", "{7CF1FD4F-9265-4326-B016-2DB89D1492E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

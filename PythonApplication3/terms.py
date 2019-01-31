@@ -1,8 +1,5 @@
 import json
 
-value_ids = [389832,379361,387323,445594,429610,492511,379364,446674]
-
-
 """%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Creation of container with attribute id and value. Usage of name 
@@ -30,8 +27,6 @@ def createAttributeTerm(attr_id, attr_val):
     new_term = json.dumps({"terms":{new_attr:new_list}})
     return new_term
 
-newterm1 = createAttributeTerm(5471, value_ids)
-
 """
 Creation of container with manufacturer. Usage of name 
 instead of ID is allowed.
@@ -51,8 +46,6 @@ def createManufacturerTerm(manufact_val):
         new_attr = "manufacturer_id"
     new_term = json.dumps({"terms":{new_attr:manufact_val}})
     return new_term
-
-newmanterm = createManufacturerTerm("Lenovo")
 
 """
 Creation of container composition. This function has 6 arguments:
@@ -87,5 +80,3 @@ def composeTerms(logic, man_term, term1 = 0, term2 = 0, term3 = 0, term4 =0):
     else:
         print("wakalaka")
     return query
-
-query = composeTerms("must", newmanterm, newterm1, newterm1, newterm1, newterm1)

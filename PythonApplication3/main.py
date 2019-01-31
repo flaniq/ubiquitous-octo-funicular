@@ -9,8 +9,6 @@ from PyQt5.QtWidgets import *
 app = QtWidgets.QApplication([])
 dlg = uic.loadUi("test.ui")
 
-
-
 def main():
     with open('data.json', 'r') as file:
         dlg.textEdit.setText(file.read())
@@ -66,11 +64,7 @@ def ESQuery():
     show_message("Finished", "%d documents found" % query_response['hits']['total'])
     dlg.textEdit.setText(query_response)
 
-
-
-
 dlg.lineEdit_4.setFocus()
-
 dlg.lineEdit.setPlaceholderText("Attribute ID")
 dlg.lineEdit_3.setPlaceholderText("Attribute Value")
 dlg.pushButton.clicked.connect(Convert)
