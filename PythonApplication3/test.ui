@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>782</width>
-    <height>752</height>
+    <height>819</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -80,16 +80,19 @@
       <item>
        <widget class="QPushButton" name="pushButton_4">
         <property name="text">
-         <string>PushButton</string>
+         <string>GET</string>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QPushButton" name="pushButton_5">
         <property name="text">
-         <string>PushButton</string>
+         <string>Create</string>
         </property>
        </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_9"/>
       </item>
      </layout>
     </item>
